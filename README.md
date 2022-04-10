@@ -80,6 +80,6 @@ React works with component-based rendering. Therefore the gist of the frontend h
 
 ## Additional Infos / Thoughts
 
-This project was a lot of fun, but came with a lot of uncovered grounds for me. Especially the setup of the session cookie was kind of hard to manage. Next time I will definitely make use of JWT for authentication. In a small app like this there is no need to store tons of data - so why not keep it simple?!
+This project was a lot of fun andcame with a lot of uncovered grounds for me. Especially the setup of the session cookie was kind of hard to manage. Next time I will definitely make use of JWT for authentication. In a small app like this there is no need to store tons of data - so why not keep it simple?!
 
 Also I ran into a lot of issues with testing the API calls and mocking dependencies while TypeScript was making it even harder. Next time I will try to write tests first and then the actual code. It leads to a more precise workflow, awareness and stability in the end.
