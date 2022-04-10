@@ -1,0 +1,19 @@
+.BookListItem {
+	@apply relative text-center flex justify-between bg-slate-50 mb-3 p-3 rounded-xl w-full shadow-md;
+
+	i {
+		@apply ml-2 p-2 rounded-full shadow-md;
+	}
+
+	input {
+		@apply my-1 bg-slate-50 rounded-lg;
+	}
+
+	input.edit {
+		outline: 1px solid darkgray;
+	}
+
+	span {
+		@apply mb-3 mt-2 text-purple-900;
+	}
+}

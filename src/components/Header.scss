@@ -1,0 +1,5 @@
+.Header {
+	.Link {
+		@apply hover:bg-yellow-400 bg-yellow-500 cursor-pointer p-3 flex items-center rounded-lg shadow-lg uppercase tracking-wider;
+	}
+}

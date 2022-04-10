@@ -1,0 +1,21 @@
+.user-form {
+	@apply p-8 rounded-3xl w-full flex flex-col items-center shadow-md max-w-screen-sm mx-auto my-0 mt-5;
+	background-image: linear-gradient(135deg, #764ba2 0%, #7c71df 100%);
+
+	input {
+		@apply bg-slate-100 p-3 mb-2 min-w-full rounded-lg;
+	}
+
+	button {
+		@apply bg-yellow-500 hover:bg-yellow-400 p-5 rounded-lg mt-5 uppercase;
+		min-width: 200px;
+	}
+
+	label {
+		@apply mb-2 text-lg text-slate-50;
+	}
+
+	span {
+		@apply mb-3 text-yellow-500;
+	}
+}

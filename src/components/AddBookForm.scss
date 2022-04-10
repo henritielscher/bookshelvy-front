@@ -1,0 +1,20 @@
+.add-form {
+	@apply p-5 rounded-3xl w-full max-w-screen-sm flex flex-col items-center shadow-md mt-5;
+	background-image: linear-gradient(135deg, #764ba2 0%, #7c71df 100%);
+
+	label {
+		@apply hidden sm:inline text-lg text-slate-50 w-20;
+	}
+
+	input {
+		@apply bg-slate-50 p-3 grow rounded-lg w-full;
+	}
+
+	button {
+		@apply bg-yellow-500 hover:bg-yellow-400 p-3 rounded-lg mt-5 uppercase;
+	}
+
+	span {
+		@apply mb-3 mt-2 text-slate-50;
+	}
+}
