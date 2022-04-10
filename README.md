@@ -70,8 +70,7 @@ Basically the different [contexts](./src/context/) provide the App component wit
 2. UsersContext
     - handles the login & logout of the user
 3. BooksContext
-
--   handles all fetched books and updates of the UI to go along with the actual database state
+    - handles all fetched books and updates of the UI to go along with the actual database state
 
 I clearly would have gotten away with using only useState() for the context, but in order to learn something new I handled users and books with reducers.
 
