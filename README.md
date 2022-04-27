@@ -24,6 +24,7 @@ So plenty of stuff going on especially since I splitted the front- and backend t
 -   React Hook Form | [Link](https://reactrouter.com/)
 -   React Toastify | [Link](https://fkhadra.github.io/react-toastify/introduction/)
 -   Axios | [Link](https://axios-http.com/)
+-   TailwindCSS | [Link](https://tailwindcss.com/)
 
 ### Backend
 
