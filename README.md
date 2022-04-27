@@ -42,7 +42,7 @@ So plenty of stuff going on especially since I splitted the front- and backend t
 
 ## Project Explanation
 
-### Backend | Repo [HERE]()
+### Backend | Repo [HERE](https://github.com/henritielscher/bookshelvy-back)
 
 The Backend works as an API to make requests to from the frontend. The files for each feature (books & users) are structured in a "folder by feature" way while all functionality is split up in five files for dependency injection (same with the app.ts and database.js) to mock the functions in testing and / or use a fake database:
 
